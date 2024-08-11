@@ -53,6 +53,9 @@ android {
 
 dependencies {
 
+    implementation (libs.firebase.auth)
+    implementation (platform(libs.firebase.auth))
+
     implementation (libs.core.splashscreen)
 
     implementation (libs.google.firebase.auth.ktx)

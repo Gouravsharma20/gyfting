@@ -18,6 +18,8 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import wu.tutorials.gyfting.Presentation.enterphonenumberui.Phonenumberentery
+import wu.tutorials.gyfting.Presentation.enterphonenumberui.phonenumberentery
 
 @Composable
 fun SignInScreen(state: SignInState,onSignInClick:()->Unit) {
@@ -36,6 +38,7 @@ fun SignInScreen(state: SignInState,onSignInClick:()->Unit) {
         .padding(16.dp),
         contentAlignment = Alignment.Center
     ) {
+        Phonenumberentery()
         Button(
             onClick = onSignInClick,
             colors = ButtonDefaults.buttonColors(
